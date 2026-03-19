@@ -1,0 +1,10 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\can.o"
+".\delay.o"
+".\pin_connect_block.o"
+".\indicator_node.o"
+--strict --scatter ".\INDICATOR.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\INDICATOR.map" -o .\INDICATOR.axf

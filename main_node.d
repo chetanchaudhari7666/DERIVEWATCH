@@ -1,0 +1,15 @@
+.\main_node.o: main_node.c
+.\main_node.o: C:\Keil\ARM\Inc\Philips\lpc21xx.h
+.\main_node.o: types.h
+.\main_node.o: can.h
+.\main_node.o: types.h
+.\main_node.o: can_defines.h
+.\main_node.o: lcd.h
+.\main_node.o: types.h
+.\main_node.o: delay.h
+.\main_node.o: types.h
+.\main_node.o: ds18b20.h
+.\main_node.o: Interrupts.h
+.\main_node.o: pin_function_defines.h
+.\main_node.o: defines.h
+.\main_node.o: lcd_defines.h

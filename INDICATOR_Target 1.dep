@@ -1,0 +1,19 @@
+Dependencies for Project 'INDICATOR', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C4622)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\can.c)(0x69A33181)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\can.o --omf_browse .\can.crf --depend .\can.d)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C4638)
+I (types.h)(0x69A32DA7)
+I (can.h)(0x69A33199)
+I (can_defines.h)(0x69A33C17)
+F (.\delay.c)(0x69A32AD9)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (types.h)(0x69A32DA7)
+F (.\pin_connect_block.c)(0x69A32635)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\pin_connect_block.o --omf_browse .\pin_connect_block.crf --depend .\pin_connect_block.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C4638)
+I (types.h)(0x69A32DA7)
+F (.\indicator_node.c)(0x69A36190)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\indicator_node.o --omf_browse .\indicator_node.crf --depend .\indicator_node.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C4638)
+I (can.h)(0x69A33199)
+I (types.h)(0x69A32DA7)
+I (defines.h)(0x69A32634)
+I (delay.h)(0x69A32634)
+I (can_defines.h)(0x69A33C17)

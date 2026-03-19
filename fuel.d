@@ -1,0 +1,12 @@
+.\fuel.o: fuel.c
+.\fuel.o: C:\Keil\ARM\Inc\Philips\LPC21xx.h
+.\fuel.o: delay.h
+.\fuel.o: types.h
+.\fuel.o: types.h
+.\fuel.o: can.h
+.\fuel.o: types.h
+.\fuel.o: can_defines.h
+.\fuel.o: adc.h
+.\fuel.o: adc_defines.h
+.\fuel.o: lcd.h
+.\fuel.o: types.h

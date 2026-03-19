@@ -1,0 +1,18 @@
+#include "types.h"
+
+void Write_CMD_LCD(char);
+
+void Write_DAT_LCD(char);
+
+void Write_LCD(char);
+
+void LCD_Init(void);
+
+void Write_str_LCD(char *);
+
+void Write_int_LCD(signed int);
+
+void Write_float_LCD(float f,char );
+
+
+
